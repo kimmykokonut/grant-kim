@@ -1,6 +1,6 @@
 # _Animal Shelter_
 
-#### By _**Grand Abel and Kim Robinson**_
+#### By _**Grant Abel and Kim Robinson**_
 
 #### _Practice inheritance and cascading _
 
