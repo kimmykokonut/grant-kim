@@ -23,3 +23,15 @@ img {
     margin: auto;
     width: 30vw;
 }
+
+.column-2 {
+    margin: 5px;
+    margin-top: 1.5%;
+    float: left;
+    width: 30vw;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 10px ridge darkblue;
+    padding: 5 10 63 10;
+
+}
