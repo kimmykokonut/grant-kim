@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+}
+
+.column {   
+    margin: 15px;
+    width: 30vw;
+    float: left;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 10px ridge darkblue;
+    padding: 5 10 10 10;
+    
+}
+
+img {
+    margin: auto;
+    width: 30vw;
+}
