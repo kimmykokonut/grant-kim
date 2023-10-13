@@ -20,6 +20,7 @@ Center some elements on the page.
 ## Setup/Installation Requirements
 
 * Live server to view via VS Code
+* OR view on github pages here: https://kimmykokonut.github.io/grant-kim/
 
 ## Known Bugs
 
@@ -27,6 +28,6 @@ Center some elements on the page.
 
 ## License
 
-MIT
+This project is licensed under the MIT license - see the LICENSE.md file for details
 
-Copyright (c) 12 Oct 2023
+Copyright (c) 11 October 2023 Kim Robinson & Grant Abel
