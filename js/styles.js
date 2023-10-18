@@ -1,5 +1,4 @@
-// this worked in devTools. not in live server
-// error darkMode is null
+// this worked in devTools. not in live server *error darkMode is null b/c need .onload
 window.onload = function () {
   // event handlers here
   let page = document.querySelector('.page');
@@ -19,7 +18,7 @@ window.onload = function () {
     page.classList.remove('dark-mode');
     page.classList.add('light-mode');
   };
-
+// issue with prettyMode b/c remove we have 3 buttons now
   let prettyMode = document.querySelector('.button-pretty');
 
   prettyMode.onclick = function () {
