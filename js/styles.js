@@ -7,6 +7,7 @@ window.onload = function () {
   darkMode.onclick = function () {
     console.log('Dark button is clicked!');
     page.classList.remove('light-mode');
+    page.classList.remove('pretty-mode');
     page.classList.add('dark-mode');
   };
   
@@ -16,6 +17,7 @@ window.onload = function () {
     console.log('Light button clicked!');
     // this .remove worked with 2 options. adding 3rd make blank?
     page.classList.remove('dark-mode');
+    page.classList.remove('pretty-mode');
     page.classList.add('light-mode');
   };
 // issue with prettyMode b/c remove we have 3 buttons now
@@ -23,7 +25,8 @@ window.onload = function () {
 
   prettyMode.onclick = function () {
     console.log('Pretty mode engaged');
-    page.classList.remove();
+    page.classList.remove('light-mode');
+    page.classList.remove('dark-mode');
     page.classList.add('pretty-mode');
   };
 };
